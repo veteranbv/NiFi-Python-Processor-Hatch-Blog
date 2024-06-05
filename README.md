@@ -172,3 +172,5 @@
    - You should be able to add your new "Hello World" processor to a data flow.
 
 This guide provides a starting point for developing Python processors in Apache NiFi using Hatch. Modify the processor code as needed for more complex functionalities.
+
+Acknowledgements: I liberally used the [Datavolo Hatch documentation](https://docs.datavolo.ai/docs/development-guides/packaging-python-processors) and the [NiFi Python Developer Guide](https://nifi.apache.org/documentation/nifi-2.0.0-M3/html/python-developer-guide.html) to create this guide. Thank you to the authors of these resources for their valuable work in moving us all forward!
