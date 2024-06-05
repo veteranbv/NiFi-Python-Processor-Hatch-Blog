@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling", "hatch-datavolo-nar"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hello-world-processor"
+version = "0.0.1"
+dependencies = []
+
+[tool.hatch.build.targets.nar]
+packages = ["src/hello_world_processor"]
